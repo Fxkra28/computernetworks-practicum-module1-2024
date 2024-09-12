@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/8b_y5Av8)
 | Name           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-| xxxxxxx | xxxxxx | Jaringan Komputer (x) |
-| xxxxxxx | xxxxxx | Jaringan Komputer (x) |
+| Omar Shinichi Ghifari | 5025231004 | Jaringan Komputer (IUP) |
+| Muiz Surya Fata | 5025231005 | Jaringan Komputer (IUP) |
 
 ## Task 1
 
@@ -89,7 +89,7 @@
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}`
 
 - Filter expression
 
