@@ -159,7 +159,8 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
 - Output result
 
   I didin't documented the output on the wireshark, but here's the output on the wsl:
- ```akira@Unknown:~$ nc 165.22.53.139 46000
+```
+akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
 [1] English
 [2] Bahasa Indonesia
@@ -203,7 +204,8 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 - Output result
 
   I didin't documented the output on the wireshark, but here's the output on the wsl:
- ```akira@Unknown:~$ nc 165.22.53.139 46000
+ ```
+akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
 [1] English
 [2] Bahasa Indonesia
@@ -247,7 +249,8 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 - Output result
 
   I didin't documented the output on the wireshark, but here's the output on the wsl:
- ```akira@Unknown:~$ nc 165.22.53.139 46000
+ ```
+akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
 [1] English
 [2] Bahasa Indonesia
