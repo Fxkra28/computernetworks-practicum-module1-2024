@@ -52,7 +52,6 @@
 
 - Output result
 
-  We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
 ```
 akira@Unknown:~$ nc 165.22.53.139 45000
 Choose your language [1/2]:
@@ -105,7 +104,6 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
  We detect the protocols manually.
 
 - Output result
-We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
 ```
 akira@Unknown:~$ nc 165.22.53.139 45000
 Choose your language [1/2]:
@@ -158,7 +156,6 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
 
 - Output result
 
-  I didin't documented the output on the wireshark, but here's the output on the wsl:
 ```
 akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
@@ -203,7 +200,6 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Output result
 
-  I didin't documented the output on the wireshark, but here's the output on the wsl:
  ```
 akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
@@ -248,7 +244,6 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Output result
 
-  I didin't documented the output on the wireshark, but here's the output on the wsl:
  ```
 akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
@@ -296,7 +291,6 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Output result
 
-  We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
 ```  
 akira@Unknown:~$ nc 165.22.53.139 47000
 Choose your language [1/2]:
@@ -355,7 +349,6 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Output result
 
-    We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
 ```  
 akira@Unknown:~$ nc 165.22.53.139 47000
 Choose your language [1/2]:
@@ -414,7 +407,6 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Output result
 
-    We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
 ```  
 akira@Unknown:~$ nc 165.22.53.139 47000
 Choose your language [1/2]:
@@ -471,7 +463,6 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Output result
 
-     We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
 ```  
 akira@Unknown:~$ nc 165.22.53.139 47000
 Choose your language [1/2]:
@@ -518,19 +509,28 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{M4ster_4n4lyzer_36307t1k1XIUHVIQFJFR41s9cs0lqzui8}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  `ftp`
   
 - Explanation
 
-  `Describe how you solve the questions`
+  We actually just put "ftp" on the filter bar. And apparently, it says that "100%" displayed. So... yeah
+![image](https://github.com/user-attachments/assets/c20a8ce5-1290-4644-93cb-bf76b5ba3e67)
 
 - Output result
-
-  `Attach the screenshot of the output result of your flag`
+```
+akira@Unknown:~$ nc 165.22.53.139 48000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Protokol apa yang paling banyak terdapat di file hasil capture traffic?
+> FTP
+Correct! Here is your flag: JARKOM24{M4ster_4n4lyzer_36307t1k1XIUHVIQFJFR41s9cs0lqzui8}
+```
 
 <br>
 <br>
@@ -546,19 +546,32 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{h1s_fr1end_1s_g3d4g3d1g3d4g3d03_F4J71VNDBCyksnUmfxddstcoaeB4Sur1XMYNNXSYMB}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  `tcp contains "successsful`
   
 - Explanation
 
-  `Describe how you solve the questions`
+  Usually when someone succesfully, it outputs `Login successsful` status. So we filters any tcp that contains "successful" in it.
+![5-2 1](https://github.com/user-attachments/assets/dd6f42f5-a551-4069-a774-63f3ca77b4ba)
+
 
 - Output result
-
-  `Attach the screenshot of the output result of your flag`
+```
+akira@Unknown:~$ nc 165.22.53.139 50000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Apa password yang tepat dari hasil bruteforce?
+> gedagedigedagedao
+Incorrect Answer
+Apa password yang tepat dari hasil bruteforce?
+> gedagedigedagedoe
+Correct! Here is your flag: JARKOM24{h1s_fr1end_1s_g3d4g3d1g3d4g3d03_F4J71VNDBCyksnUmfxddstcoaeB4Sur1XMYNNXSYMB}
+```
 
 <br>
 <br>
@@ -582,7 +595,7 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
   
 - Explanation
 
-  - So we thinking that to find the successful passwords, there is must been successful status when we try to login in the website, so we used filter expressions `tcp` that contained keyword “successful”, and so we found one line packet only that contain that word.
+  - So we were thinking that to find the successful passwords, there is must been successful status when we try to login in the website, so we used filter expressions `tcp` that contained keyword “successful”, and so we found one line packet only that contain that word.
   ![image](https://github.com/user-attachments/assets/ff31b44e-0986-40a0-a672-b75d6ee63ae7)
 
 - Output result
