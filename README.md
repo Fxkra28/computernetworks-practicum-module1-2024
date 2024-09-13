@@ -14,19 +14,20 @@
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't put any filter.
   
 - Explanation
 
-  `Describe how you solve the questions`
+  Just look at the bottom of the WIreshark, it shows the packets that are recorded in the pcapng file.
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+  ![image](https://github.com/user-attachments/assets/1ab8de79-d5cd-4ae8-8107-71c4fc072ba7)
+
 
 <br>
 <br>
@@ -39,19 +40,46 @@
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't use any filters.
   
 - Explanation
 
-  `Describe how you solve the questions`
+  Head to "Statistic" bar, then select "Protocol Hierarchy".
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+  We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
+  ```akira@Unknown:~$ nc 165.22.53.139 45000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4500
+Incorrect Answer
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4
+sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
+contoh: PROTOCOL1,PROTOCOL2
+> TCP,SSDP,MDNS,HTTP
+Incorrect Answer
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4
+sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
+contoh: PROTOCOL1,PROTOCOL2
+> HTTP,MDNS,SSDP,TCP
+Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}```
+
 
 <br>
 <br>
@@ -64,19 +92,46 @@
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't use any filters.
   
 - Explanation
 
-  `Describe how you solve the questions`
+ We detect the protocols manually.
 
 - Output result
-
-  `Attach the screenshot of the output result of your flag`
+We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
+```
+akira@Unknown:~$ nc 165.22.53.139 45000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4500
+Incorrect Answer
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4
+sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
+contoh: PROTOCOL1,PROTOCOL2
+> TCP,SSDP,MDNS,HTTP
+Incorrect Answer
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4
+sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
+contoh: PROTOCOL1,PROTOCOL2
+> HTTP,MDNS,SSDP,TCP
+Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}
+```
 
 
 ## Task 2
@@ -101,8 +156,8 @@
 
 - Output result
 
-  I didin't documented the output on the wireshark, but here's the output on the wsl
-  ```akira@Unknown:~$ nc 165.22.53.139 46000
+  I didin't documented the output on the wireshark, but here's the output on the wsl:
+ ```akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
 [1] English
 [2] Bahasa Indonesia
@@ -118,7 +173,8 @@ Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
 > 412
 Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
 > 217
-Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}```
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
+```
 
 
 <br>
@@ -144,8 +200,8 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Output result
 
-  I didin't documented the output on the wireshark, but here's the output on the wsl
-  ```akira@Unknown:~$ nc 165.22.53.139 46000
+  I didin't documented the output on the wireshark, but here's the output on the wsl:
+ ```akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
 [1] English
 [2] Bahasa Indonesia
@@ -161,7 +217,9 @@ Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
 > 412
 Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
 > 217
-Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}```
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
+```
+
 
 <br>
 <br>
@@ -186,7 +244,7 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Output result
 
-  I didin't documented the output on the wireshark, but here's the output on the wsl
+  I didin't documented the output on the wireshark, but here's the output on the wsl:
  ```akira@Unknown:~$ nc 165.22.53.139 46000
 Choose your language [1/2]:
 [1] English
@@ -221,19 +279,49 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  `http`
   
 - Explanation
 
-  `Describe how you solve the questions`
+  Simply put `http` on the filter tab. It'll filter any HTTP ports.
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+  We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
+```  
+akira@Unknown:~$ nc 165.22.53.139 47000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 2
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 1
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 4
+sebutkan nama file secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator, contoh: file1,file2
+> file.pdf,hello.html,lion.jpg,present.pptx
+Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}
+```
 
 <br>
 <br>
@@ -247,19 +335,53 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't filter anything
   
 - Explanation
 
-  `Describe how you solve the questions`
+  When filtering the server, you should seen some status one the bottom left side of the wireshark. It shows the size of the file response that were sent from the server. It should be something like this:
+![image](https://github.com/user-attachments/assets/0d20e9c4-3ed4-45be-936b-66951ba41540)
+(this is not the actual documentation from the answer, just an example)
+
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+    We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
+```  
+akira@Unknown:~$ nc 165.22.53.139 47000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 2
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 1
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 4
+sebutkan nama file secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator, contoh: file1,file2
+> file.pdf,hello.html,lion.jpg,present.pptx
+Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}
+```
+
 
 <br>
 <br>
@@ -273,26 +395,59 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't use any filters.
   
 - Explanation
 
-  `Describe how you solve the questions`
+  We right clicked the tcp, and select "Follow TCP Stream". And it shows the files that are exist on the server. It should shows something like this:
+![3-2 1](https://github.com/user-attachments/assets/97634e2c-d277-4633-87dc-eec4aabdf052)
+
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+    We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
+```  
+akira@Unknown:~$ nc 165.22.53.139 47000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 2
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 1
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 4
+sebutkan nama file secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator, contoh: file1,file2
+> file.pdf,hello.html,lion.jpg,present.pptx
+Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}
+```
+
 
 <br>
 <br>
 
-> c. Sebutkan nama file secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator, contoh: file1,file2
+> d. Sebutkan nama file secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator, contoh: file1,file2
 
-> _c. List the filenames in descending alphabetical order, separated by commas. Example: file1,file2_
+> _d. List the filenames in descending alphabetical order, separated by commas. Example: file1,file2_
 
 
 **Answer:**
@@ -303,15 +458,46 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't filter anything.
   
 - Explanation
 
-  `Describe how you solve the questions`
+  From the previous section, we can detect the file names
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+     We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
+```  
+akira@Unknown:~$ nc 165.22.53.139 47000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 2
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 1
+Incorrect Answer
+Pada port berapa server http terbuka?
+> 9282
+Berapa byte file response yang dikirim dari server?
+> 427
+Berapa jumlah file yang terdapat pada server?
+> 4
+sebutkan nama file secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator, contoh: file1,file2
+> file.pdf,hello.html,lion.jpg,present.pptx
+Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj11jmaonbntzq}
+```
+
 
 <br>
 <br>
