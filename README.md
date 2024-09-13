@@ -576,7 +576,7 @@ Correct! Here is your flag: JARKOM24{M4ster_4n4lyzer_36307t1k1XIUHVIQFJFR41s9cs0
 
 - Flag
 
-  `JARKOM24{h1s_fr1end_1s_g3d4g3d1g3d4g3d03_F4J71VNDBCyksnUmfxddstcoaeB4Sur1XMYNNXSYMB}`
+  `JARKOM24{He_1s_g3d4g3d1g3d4g3d40_VSBPAJUTMDSSFHXQVEDEMunskyjluwoxdhuqt456434565837}`
 
 - Filter expression
 
