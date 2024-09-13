@@ -53,7 +53,8 @@
 - Output result
 
   We didin't documented the result, but we do keep the wsl output. Here's the wsl output:
-  ```akira@Unknown:~$ nc 165.22.53.139 45000
+```
+akira@Unknown:~$ nc 165.22.53.139 45000
 Choose your language [1/2]:
 [1] English
 [2] Bahasa Indonesia
@@ -78,7 +79,8 @@ Ada berapa jenis protocol yang terekam pada traffic?
 sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
 contoh: PROTOCOL1,PROTOCOL2
 > HTTP,MDNS,SSDP,TCP
-Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}```
+Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}
+```
 
 
 <br>
