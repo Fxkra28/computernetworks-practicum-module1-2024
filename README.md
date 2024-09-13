@@ -101,7 +101,26 @@
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+  I didin't documented the output on the wireshark, but here's the output on the wsl
+  `akira@Unknown:~$ nc 165.22.53.139 46000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Berapa banyak packet berbasis TCP yang memiliki flag [RST, ACK]?
+> 411
+Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
+> 413
+Incorrect Answer
+Berapa banyak packet berbasis TCP yang memiliki flag [RST, ACK]?
+> 411
+Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
+> 412
+Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
+> 217
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
+`
+
 
 <br>
 <br>
@@ -114,7 +133,7 @@
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}`
 
 - Filter expression
 
@@ -122,11 +141,29 @@
   
 - Explanation
 
-  `Describe how you solve the questions`
+  For this one, We tried the same thing as the previous one, but we set the `tcpflags.syn == 1` and `tcp.flags.ack == 0`. So it will only displays TCP based packets that have only the [SYN] flag.
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+  I didin't documented the output on the wireshark, but here's the output on the wsl
+  `akira@Unknown:~$ nc 165.22.53.139 46000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Berapa banyak packet berbasis TCP yang memiliki flag [RST, ACK]?
+> 411
+Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
+> 413
+Incorrect Answer
+Berapa banyak packet berbasis TCP yang memiliki flag [RST, ACK]?
+> 411
+Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
+> 412
+Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
+> 217
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
+`
 
 <br>
 <br>
@@ -139,19 +176,38 @@
 
 - Flag
 
-  `Put your flag in here`
+  `JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}`
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  `tcp.flags.ack==1 && tcpflags.syn==0&&tcp.flags.reset==0`
   
 - Explanation
 
-  `Describe how you solve the questions`
+  Just like previous, 1 means true and 0 means false. So it will only filters the one we set 1 as it's value.
 
 - Output result
 
-  `Attach the screenshot of the output result of your flag`
+  I didin't documented the output on the wireshark, but here's the output on the wsl
+  `akira@Unknown:~$ nc 165.22.53.139 46000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Berapa banyak packet berbasis TCP yang memiliki flag [RST, ACK]?
+> 411
+Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
+> 413
+Incorrect Answer
+Berapa banyak packet berbasis TCP yang memiliki flag [RST, ACK]?
+> 411
+Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
+> 412
+Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
+> 217
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
+`
+
 
 <br>
 <br>
