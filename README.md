@@ -18,7 +18,7 @@
 
 - Filter expression
 
-  We didin't put any filter.
+  We didin't put any filter expressions.
   
 - Explanation
 
@@ -74,7 +74,7 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
 
 - Filter expression
 
-  We didin't use any filters.
+  We didin't use any filter expressions.
   
 - Explanation
 
@@ -130,7 +130,7 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
 
 - Filter expression
 
-  We didin't use any filters.
+  We didin't use any filter expressions.
   
 - Explanation
 
@@ -225,7 +225,7 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  We didin't put any filter expressions
   
 - Explanation
 
@@ -371,7 +371,7 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Filter expression
 
-  We didin't filter anything
+  We didin't filter anything.
   
 - Explanation
 
@@ -427,7 +427,7 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
 
 - Filter expression
 
-  We didin't use any filters.
+  We didin't use any filter expressions.
   
 - Explanation
 
