@@ -370,11 +370,8 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
   
 - Explanation
 
-  When filtering the server, you should seen some status one the bottom left side of the wireshark. It shows the size of the file response that were sent from the server. It should be something like this:
-![image](https://github.com/user-attachments/assets/0d20e9c4-3ed4-45be-936b-66951ba41540)
-(this is not the actual documentation from the answer, just an example)
-
-
+  We follow the TCP Stream and then founds out the size.
+  
 - Output result
 
 ```  
