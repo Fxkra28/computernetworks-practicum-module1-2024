@@ -337,7 +337,7 @@
   
 - Explanation
 
-  - So we thinking that to find the successful passwords, there is must been successful status when we try to login in the website, so we use filter expressions tcp that contains keyword “successful”, and so we find one line only that contain that words.
+  - So we thinking that to find the successful passwords, there is must been successful status when we try to login in the website, so we used filter expressions `tcp` that contained keyword “successful”, and so we found one line packet only that contain that word.
   ![image](https://github.com/user-attachments/assets/ff31b44e-0986-40a0-a672-b75d6ee63ae7)
 
 - Output result
@@ -380,9 +380,9 @@ Correct! Here is your flag: JARKOM24{h1s_fr1end_1s_g3d4g3d1g3d4g3d03_F4J71VNDBCy
   
 - Explanation
 
-  - So we can only check the line, and we can see from this sections
+  - So we could check and clicked the line packet, and we could saw from this sections
  ![image](https://github.com/user-attachments/assets/66691d15-c728-4ee9-b8b2-10f5b0d6ee45)
-  - We can see the src port (Where the file can accessed) which is 2423
+  - From this image, we can see the src port (Where the file can accessed) which is Port 2423
 
 - Output result
 
@@ -398,7 +398,6 @@ Incorrect Answer
 Pada port berapa telnet yang bisa diakses?
 > 2423
 Correct! Here is your flag: JARKOM24{Gr34t_Sn1ff3r_QFRU5yksnUmli1qgqa5gaT3t0tJKsGbjzNib}
-
 ```
 
 <br>
@@ -423,9 +422,9 @@ Correct! Here is your flag: JARKOM24{Gr34t_Sn1ff3r_QFRU5yksnUmli1qgqa5gaT3t0tJKs
   
 - Explanation
   - So we wanted to figure out file that can be founded first, we used “http/tcp” filter. The packets contains 32 files, but there is no packets on it.
-  - And after that, we tried to use `tcp contains “found”` and `tcp contains “Found”` based on our perceptions towards the files that detected by packets, but there is no results, until we use `tcp contains “FOUND”`, we found 7 lines of packets that contains that keywords.
+  - And after that, we tried to use `tcp contains “found”` and `tcp contains “Found”` based on our perceptions towards the files that detected by packets, but there is no results, until we use `tcp contains “FOUND”`, we found 7 lines of packets that contained that keywords.
 ![image](https://github.com/user-attachments/assets/1293dbbb-4ccb-408f-8cf1-9e06536d28e2)
-  - we tried to answer there is 6 files that contained in, perhaps that the upmost line didn’t necessary, but answer was incorrect, then we tried to answered 7 to make it sure that the upmost line contained the file too. Then it’s correct!
+  - we tried to answer 6 files that contained in, perhaps that the upmost line packets didn’t necessary, but answer was incorrect. Then we tried to answered 7 to make it sure that the upmost line packets are categorized as a file too. Then it’s correct!
 
 - Output result
 ```
@@ -446,7 +445,6 @@ Incorrect Answer
 Ada berapa file di dalam server?
 > 7
 Correct! Here is your flag: JARKOM24{P4ck3t_4n4lyz3r_nxYhAV7fPi3112ihhctmiuhjS1SVYSNNKVSJR}
-
 ```
 
 <br>
@@ -481,8 +479,8 @@ Correct! Here is your flag: JARKOM24{P4ck3t_4n4lyz3r_nxYhAV7fPi3112ihhctmiuhjS1S
     - At first sight, we clicked all of the lines, including `stories$`, but after that, we clicked again for the second time, and we realizes that after the `==` sign is not the part of the output. Instead it was the telnet identifier.
     - With this clue, we try to scrolled up and finding that before these output, there is text called `echo`
  ![image](https://github.com/user-attachments/assets/e04297cb-92cc-4709-a5e6-cca934fff30e)
-    - At that time we didn’t have idea and clue what the answer was, so we tried to answered echo instead, and it worked!
-    - So to sum it up, we tried to open question number 10 first to got the clue, and then we scrolled up before the Base64 output format, and we tried the text, luckily got it right. 
+    - At that time we didn’t have idea and clue what the answer was, so we tried to answered `echo` instead, and it worked!
+    - So to sum it up, we tried to open question number 10 first to got the clue, and then we scrolled up before the Base64 output format, and we tried to answer `echo`, and luckily got it right. 
 
 - Output result
 
@@ -594,7 +592,6 @@ Incorrect Answer
 apa nama file yang dieksekusi oleh user?
 > echo
 Correct! Here is your flag: JARKOM24{333ch000_us3r_942484903812fLyaVLocGld33d9EZM3LPIKR}
-
 ```
 
 <br>
@@ -633,13 +630,22 @@ Choose your language [1/2]:
 > 2
 apa output dari file dalam bentuk base64 decode? [Gunakan tools atau command di linux]
 > Djumanto mencoba menenangkan kuda kesayangannya, Glukgluk, yang tiba-tiba melompat-lompat di kandang sambil berteriak, 'Tenang, Glukgluk, ini cuma payung, bukan alien!'
-Correct! Here is your flag: JARKOM24{tH4ts_1t_w3ll_d0n3_64176602881337uztrp8cm1p1231421421HMFLL8L8LBAOVM8}`
-
+Correct! Here is your flag: JARKOM24{tH4ts_1t_w3ll_d0n3_64176602881337uztrp8cm1p1231421421HMFLL8L8LBAOVM8}
 ```
 
 <br>
 <br>
 
 ## Summary
+So to sum it up, there are 7 General Steps to finish the tasks:
+1. We tried to log in into the `165.22.53.139` link websites that provided by lecture assitants.
+2. Then we open the flag that provided and open gdrive the link.
+![image](https://github.com/user-attachments/assets/1fe42c31-3f0f-467d-bf2a-f4e784b6bd3c)
+3. We download the packets, and after the downloaded have been finished, we open the packets.
+4. Opening the WSL, and execute command `nc 165.22.53.139 [Port Number]` And we try to answer the questions.
+5. To help Answer the questions, we can filter the packets in the wireshark app.
+6. To see the content of the packets, we can double-click our mouse/touchpad, click follow, and click tcp/http stream.
+7. If we already answered the questions, we could got the flag and submit it to the websites before.
 
 ## Problems
+- Maybe our problems were the website's responsiveness. We hope that if we use the same websites, please divide into different time sessions, to make sure the website can handle the client (team's activity) traffic.
