@@ -584,7 +584,7 @@ Correct! Here is your flag: JARKOM24{M4ster_4n4lyzer_36307t1k1XIUHVIQFJFR41s9cs0
   
 - Explanation
 
-  Usually when someone succesfully login, it outputs `Login successsful` status. So we filters any tcp that contains "successful" in it. And then, we right clicked the tcp, and select "Follow TCP Stream"
+  Usually when someone succesfully login, it outputs `Login successsful` status. So we filters any tcp that contains "successful" in it. And then, we right clicked the tcp, and select "Follow TCP Stream". It should show something like this.
 ![5-2 1](https://github.com/user-attachments/assets/dd6f42f5-a551-4069-a774-63f3ca77b4ba)
 
 
