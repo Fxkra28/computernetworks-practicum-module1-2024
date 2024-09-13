@@ -23,11 +23,39 @@
 - Explanation
 
   Just look at the bottom of the WIreshark, it shows the packets that are recorded in the pcapng file.
+![image](https://github.com/user-attachments/assets/1ab8de79-d5cd-4ae8-8107-71c4fc072ba7)
+
 
 - Output result
-
-  ![image](https://github.com/user-attachments/assets/1ab8de79-d5cd-4ae8-8107-71c4fc072ba7)
-
+```
+akira@Unknown:~$ nc 165.22.53.139 45000
+Choose your language [1/2]:
+[1] English
+[2] Bahasa Indonesia
+> 2
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4500
+Incorrect Answer
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4
+sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
+contoh: PROTOCOL1,PROTOCOL2
+> TCP,SSDP,MDNS,HTTP
+Incorrect Answer
+Berapa banyak packet yang terekam pada file pcapng?
+> 1089
+Ada berapa jenis protocol yang terekam pada traffic?
+> 4
+sebutkan secara berurutan berdasarkan alfabet menurun dengan koma sebagai separator dan dalam bentuk uppercase
+contoh: PROTOCOL1,PROTOCOL2
+> HTTP,MDNS,SSDP,TCP
+Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0xL4ugh9wezdo17j94yqejwdr0eaa0}
+```
+  
 
 <br>
 <br>
