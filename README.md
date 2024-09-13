@@ -93,11 +93,11 @@
 
 - Filter expression
 
-  `Put your filter expression here (if any)`
+  `tcp.flags.ack == 1 && tcp.flags.reset == 1`
   
 - Explanation
 
-  `Describe how you solve the questions`
+  Simply set the `tcp.flags.ack` and `tcp.flags.reset` value to one, so it will filters ack and rst
 
 - Output result
 
