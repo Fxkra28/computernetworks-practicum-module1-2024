@@ -78,7 +78,10 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
   
 - Explanation
 
-  Head to "Statistic" bar, then select "Protocol Hierarchy".
+  Head to "Statistic" bar, then select "Protocol Hierarchy". It should shows something like this:
+
+![1-2 1](https://github.com/user-attachments/assets/8be1efff-d14c-49d6-b8e1-172b828e31b3)
+
 
 - Output result
 
@@ -182,7 +185,7 @@ Correct! Here is your flag: JARKOM24{K4mu_K3r3n_C6PUUQH8IDI37ADBCM8M3DJZ6WYRJP0x
   
 - Explanation
 
-  Simply set the `tcp.flags.ack` and `tcp.flags.reset` value to one, so it will filters ack and rst
+  Simply set the `tcp.flags.ack` and `tcp.flags.reset` value to one, so it will filters ack and rst.
 
 - Output result
 
@@ -317,7 +320,7 @@ Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgw
   
 - Explanation
 
-  Simply put `http` on the filter tab. It'll filter any HTTP ports.
+  Simply put `http` on the filter tab. It'll filter every HTTP ports.
 
 - Output result
 
@@ -486,7 +489,7 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
   
 - Explanation
 
-  From the previous section, we can detect the file names
+  From the previous section, we can detect the file names.
 
 - Output result
 
@@ -544,7 +547,7 @@ Correct! Here is your flag: JARKOM24{Y0u_4r3_4_g00d_4nalyz3r_7W1RPL1tsew25m80xwj
   
 - Explanation
 
-  We actually just put "ftp" on the filter bar. And apparently, it says that "100%" displayed. So... yeah
+  We actually just put "ftp" on the filter bar. And apparently, it says that 100% displayed. So... yeah
 ![image](https://github.com/user-attachments/assets/c20a8ce5-1290-4644-93cb-bf76b5ba3e67)
 
 - Output result
@@ -581,7 +584,7 @@ Correct! Here is your flag: JARKOM24{M4ster_4n4lyzer_36307t1k1XIUHVIQFJFR41s9cs0
   
 - Explanation
 
-  Usually when someone succesfully, it outputs `Login successsful` status. So we filters any tcp that contains "successful" in it.
+  Usually when someone succesfully login, it outputs `Login successsful` status. So we filters any tcp that contains "successful" in it.
 ![5-2 1](https://github.com/user-attachments/assets/dd6f42f5-a551-4069-a774-63f3ca77b4ba)
 
 
