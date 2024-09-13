@@ -118,8 +118,7 @@ Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
 > 412
 Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
 > 217
-Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
-```
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}```
 
 
 <br>
@@ -162,8 +161,7 @@ Berapa banyak packet berbasis TCP yang hanya memiliki flag [SYN]?
 > 412
 Berapa banyak packet berbasis TCP yang memiliki flag ack, tapi tidak memiliki syn, dan tidak memiliki rst
 > 217
-Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}
-```
+Correct! Here is your flag: JARKOM24{W0w_4nother_Sh0t_KRNEMVCPFDH0mptyseqipnvpgwxbrsqnowdnM4r151974754484178268392}```
 
 <br>
 <br>
